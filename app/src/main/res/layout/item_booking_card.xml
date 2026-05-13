@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardBackgroundColor="#1A1A1A"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/cardPoster"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/drama_poster"
+                android:background="#2A2A2A"/>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/cardGenre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MYTHOLOGICAL"
+                android:textColor="#D4A843"
+                android:textSize="11sp"
+                android:letterSpacing="0.15"/>
+
+            <TextView
+                android:id="@+id/cardTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drama Title"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp"/>
+
+            <TextView
+                android:id="@+id/cardTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tonight · 7:30 PM"
+                android:textColor="#AAAAAA"
+                android:textSize="13sp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/cardVenue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venue"
+                android:textColor="#AAAAAA"
+                android:textSize="13sp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:id="@+id/cardSeats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seat A5"
+                android:textColor="#AAAAAA"
+                android:textSize="13sp"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:id="@+id/cardAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹300"
+                android:textColor="#D4A843"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#2A2A2A"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOOKING ID"
+            android:textColor="#888888"
+            android:textSize="11sp"/>
+
+        <TextView
+            android:id="@+id/cardBookingId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NM-2025"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

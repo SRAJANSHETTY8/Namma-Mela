@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="theatre_bg">#1B1B1B</color>
+    <color name="theatre_red">#8B0000</color>
+    <color name="gold">#D4AF37</color>
+    <color name="card_bg">#2A2A2A</color>
+
+    <!-- Theme colors needed by themes.xml -->
+    <color name="purple_500">#D4AF37</color>
+    <color name="purple_700">#1B1B1B</color>
+    <color name="teal_200">#8B0000</color>
+    <color name="teal_700">#0D0D0D</color>
+
+</resources>
