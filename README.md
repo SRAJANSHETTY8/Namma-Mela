@@ -153,39 +153,39 @@ app/
 
 # Screenshots
 
-## Home Screen
+## Home Page
 
-![Home Screen](screenshots/home_screen.png)
-
----
-
-## Drama List Page
-
-![Drama List](screenshots/drama_list.png)
+<img src="gradle/IMG2.jpeg" width="300"/>
 
 ---
 
 ## Seat Booking Page
 
-![Seat Booking](screenshots/seat_booking.png)
-
----
-
-## Cast Page
-
-![Cast Page](screenshots/cast_page.png)
+<img src="gradle/IMG3.jpeg" width="300"/>
 
 ---
 
 ## Booking History Page
 
-![Booking History](screenshots/booking_history.png)
+<img src="gradle/IMG4.jpeg" width="300"/>
+
+---
+
+## Drama List Page
+
+<img src="gradle/IMG5.jpeg" width="300"/>
+
+---
+
+## Cast Page
+
+<img src="gradle/IMG6.jpeg" width="300"/>
 
 ---
 
 ## Fan Wall Page
 
-![Fan Wall](gradle/IMG1.jpeg)
+<img src="gradle/IMG1.jpeg" width="300"/>
 
 ---
 
