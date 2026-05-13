@@ -185,7 +185,7 @@ app/
 
 ## Fan Wall Page
 
-![Fan Wall](screenshots/fan_wall.png)
+![Fan Wall](gradle/IMG1.jpeg)
 
 ---
 
